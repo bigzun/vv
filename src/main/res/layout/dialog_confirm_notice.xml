@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dialog_margin_around"
+    android:background="@drawable/bg_white_radius"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_around_buttons"
+        android:layout_marginLeft="@dimen/dialog_padding"
+        android:layout_marginRight="@dimen/dialog_padding"
+        android:layout_marginTop="@dimen/dialog_padding"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/text_title_dialog"
+            android:textSize="@dimen/text_title_dialog" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_around_buttons">
+
+        <Button
+            android:id="@+id/button_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_button_dialog"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_select_item"
+            android:gravity="center"
+            android:minWidth="64dp"
+            android:paddingLeft="@dimen/padding_around_buttons"
+            android:paddingRight="@dimen/padding_around_buttons"
+            android:text="@string/button_agree"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_button_dialog"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_no"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_button_dialog"
+            android:layout_toLeftOf="@id/button_yes"
+            android:background="@drawable/bg_select_item"
+            android:gravity="center"
+            android:minWidth="64dp"
+            android:paddingLeft="@dimen/padding_around_buttons"
+            android:paddingRight="@dimen/padding_around_buttons"
+            android:text="@string/button_cancel"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_button_dialog" />
+    </RelativeLayout>
+</LinearLayout>

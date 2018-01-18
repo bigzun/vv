@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SDK</string>
+    <string name="button_yes">Có</string>
+    <string name="button_no">Không</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Hủy bỏ</string>
+    <string name="button_agree">Đồng ý</string>
+    <string name="msg_network_error">Không có kết nốt Internet.</string>
+    <string name="title_network_lost">Lỗi kết nối</string>
+    <string name="title_setting">Thiết lập</string>
+    <string name="msg_login_session_expried">Phiên đăng nhập đã hết hạn hoặc tài khoản của bạn đã được đăng nhập trên một thiết bị khác.</string>
+    <string name="button_login_again">ĐĂNG NHẬP LẠI</string>
+    <string name="title_error">Có lỗi xảy ra</string>
+</resources>

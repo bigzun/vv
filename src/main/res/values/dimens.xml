@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_button_dialog">36dp</dimen>
+    <dimen name="dialog_margin_around">24dp</dimen>
+    <dimen name="dialog_padding">16dp</dimen>
+    <dimen name="text_category">15sp</dimen>
+    <dimen name="text_title">14sp</dimen>
+    <dimen name="text_content">13sp</dimen>
+    <dimen name="text_title_dialog">17sp</dimen>
+    <dimen name="text_button_dialog">14sp</dimen>
+    <dimen name="padding_around_buttons">8dp</dimen>
+</resources>
